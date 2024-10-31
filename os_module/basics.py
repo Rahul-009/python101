@@ -12,7 +12,7 @@ print(os.getcwd())
 # change directory
 os.chdir('/home/alpha')
 
-# list directory\
+# list all files and folders in a directory
 print(os.listdir())
 
 # make directory

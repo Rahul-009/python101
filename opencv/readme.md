@@ -32,6 +32,13 @@ used when direction-specific edge detection is needed.
 - Canny
   A multi-step algorithm that combines gradient calculation, non-maximum suppression, and edge tracking using double thresholds to produce strong, accurate edges.
 
+## thresholding
+
+Thresholding is a technique in OpenCV (and image processing in general) to create a binary image from a grayscale image. It converts pixel values to either 0 (black) or 255 (white), based on a threshold value. This process is widely used in object detection, image segmentation, and feature extraction.
+
+- adaptive  
+  Adaptive thresholding is useful when there is uneven lighting in an image. It calculates the threshold for small regions, making it more flexible for varying illumination conditions.
+
 ## Image Stitching steps
 
 - image loading

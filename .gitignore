@@ -2,3 +2,5 @@
 opencv-course-master/
 yolo/
 opencv/test.py
+opencv/resources/min.png
+opencv/resources/thresh.png
